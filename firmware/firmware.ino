@@ -1,4 +1,6 @@
-#include "EEPROMAnything.h"         //This is used to store more than just one byte to the EEPROM
+#include <EEPROM.h>
+#include <Arduino.h>  // for type definitions
+
 //Inputs/Outputs
 int buzzer = 5;
 /* PWM in pin - D8
