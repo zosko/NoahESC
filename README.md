@@ -1,13 +1,13 @@
-## [warning] - In Development - [warning]
+## [warning] - In Development
 
 # NoahESC
-- Atmega328 based ESC.
+- Atmega8 based ESC.
 
 ### Features
 - [X] PWM
-- [X] Low cost
 - [X] 30Amps
 - [X] 2 - 4S battery
+- [X] Low cost
 - [ ] Tested
 
 ## Scheme
@@ -16,7 +16,17 @@
 ## Boards Preview
 Board|PCB
 ---------|---------
-![Board](images/board.png)|![View 1](images/pcb.png)
+<img src="images/board.png" alt="Board" width="500"/>|<img src="images/pcb.png" alt="View 1" width="500"/>
+
+### Flashing
+Atmega8 first must be flashed via ICSP microcontroller pins.
+
+**Download**: TBA
+
+Once the Atmega8 has the firmware with bootloader flashed, now can be reprogrammed through the PWM pin using a programmer like the USB Linker. 
+
+### Updates
+**Firmware**: [TGY](https://github.com/sim-/tgy)
 
 ## PCB Design
 
