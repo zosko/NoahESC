@@ -8,7 +8,6 @@
 - [X] 30Amps
 - [X] 2 - 4S battery
 - [X] Low cost
-- [ ] Tested
 
 ## Scheme
 ![Scheme](images/scheme.png)
@@ -19,16 +18,11 @@ Board|PCB
 <img src="images/board.png" alt="Board" width="500"/>|<img src="images/pcb.png" alt="View 1" width="500"/>
 
 ### Flashing
-Atmega8 first must be flashed via ICSP microcontroller pins. I have use Arduino UNO as ISP programmer
+Atmega8 must be flashed via ICSP microcontroller pins. I have use Arduino UNO as ISP programmer
 - `avrdude -c stk500v1 -p m8 -P /dev/tty.usbmodem14401 -b 19200 -U flash:w:firmware.hex:i`
 - `avrdude -c stk500v1 -p m8 -P /dev/tty.usbmodem14401 -b 19200 -U lfuse:w:0x3f:m -U hfuse:w:0xca:m`
 
-**Download**: TBA
-
-Once the Atmega8 has the firmware with bootloader flashed, now can be reprogrammed through the PWM pin using a programmer like the USB Linker. 
-
-### Updates
-**Firmware**: [TGY](https://github.com/sim-/tgy)
+**Download**: [Firmware](firmware.hex)
 
 ## PCB Design
 
