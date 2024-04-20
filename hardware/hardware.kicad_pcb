@@ -12351,6 +12351,39 @@
 		(net 4)
 		(uuid "95439088-ee37-4783-b39b-249937084c42")
 	)
+	(gr_rect
+		(start 117.6 101.4)
+		(end 122.4 103.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.Mask")
+		(uuid "8a8d0697-691d-4d8f-ab3a-5d9536d33fba")
+	)
+	(gr_rect
+		(start 108.3 101.4)
+		(end 113.9 103.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.Mask")
+		(uuid "9b60af96-ab13-44b2-aa01-83a682144e83")
+	)
+	(gr_rect
+		(start 100.75 101.4)
+		(end 105.65 103.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.Mask")
+		(uuid "d4ed7d47-6b0b-47a9-81bb-cc76ed014d46")
+	)
 	(gr_poly
 		(pts
 			(xy 101.6 93.6) (xy 98.2 93.6) (xy 98.2 98.1) (xy 100.9 98.1) (xy 100.9 103.4) (xy 105.6 103.4) (xy 105.6 96.2)
