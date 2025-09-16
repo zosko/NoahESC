@@ -1,5 +1,3 @@
-## [warning] - In Development
-
 # NoahESC
 - Atmega8 based ESC.
 
@@ -18,9 +16,15 @@ Board|PCB
 <img src="images/board.png" alt="Board" width="500"/>|<img src="images/pcb.png" alt="View 1" width="500"/>
 
 ### Flashing
-Atmega8 must be flashed via ICSP microcontroller pins. I have use Arduino UNO as ISP programmer
+Atmega8 must be flashed via ICSP microcontroller pins. 
+
+**Arduino UNO as ISP programmer**
 - `avrdude -c stk500v1 -p m8 -P /dev/tty.usbmodem14401 -b 19200 -U flash:w:firmware.hex:i`
 - `avrdude -c stk500v1 -p m8 -P /dev/tty.usbmodem14401 -b 19200 -U lfuse:w:0x3f:m -U hfuse:w:0xca:m`
+
+**USBasp**
+- `avrdude -c usbasp -p m8 -U flash:w:firmware.hex:i`
+- `avrdude -c usbasp -p m8 -U lfuse:w:0x3f:m -U hfuse:w:0xca:m`
 
 **Download**: [Firmware](firmware.hex)
 
