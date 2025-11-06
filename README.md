@@ -1,5 +1,5 @@
 # NoahESC
-- Atmega8 based ESC.
+The Atmega8-based Electronic Speed Controller (ESC) is a motor control device that uses the Atmega8 microcontroller as its main processing unit. It is designed to regulate the speed, direction, and braking of brushless DC (BLDC) motors or brushed motors, depending on the application. The Atmega8 handles the input signals—typically from a flight controller or receiver—and converts them into precise pulse-width modulation (PWM) outputs to control the motor’s performance. This type of ESC is widely used in drones, RC vehicles, and robotics projects due to its reliability, programmability, and compatibility with open-source firmware such as TGY. Overall, it provides an efficient and flexible solution for motor speed control in embedded and hobbyist applications.
 
 ### Features
 - [X] PWM
