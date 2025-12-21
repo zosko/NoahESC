@@ -495,7 +495,7 @@
       "idf": "",
       "netlist": "../../../../../Applications/KiCad/",
       "plot": "./gerbers",
-      "pos_files": "",
+      "pos_files": "./pick-and-place",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
